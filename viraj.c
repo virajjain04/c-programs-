@@ -1,22 +1,17 @@
 #include<stdio.h>
-//Accept five values and print them later on//
+//Accept 10 values and print 4th 7th and 9th and 2nd //
+ void main()
+{ int arr[10];
 
-void main()
-{
-int arr[5];
-
-printf("Enter 5 values \n");
-for(int i=0;i<5;i++)
-{scanf("%d",&arr[i]);
-}
-
-for(int i=0;i<5;i++)
-{ printf("the value is: %d \n ",arr[i]);
-}
+ printf("Enter 10 values:\n");
+  for(int i=0;i<10;i++)
+  {scanf("%d",&arr[i]);
+  }
 
 
-
-
-
+  printf("4th value is %d\n",arr[3]);
+  printf("7th value is %d\n",arr[6]);
+  printf("9th value is %d\n",arr[8]);
+  printf("2nd value is %d\n",arr[1]);
 
 }
